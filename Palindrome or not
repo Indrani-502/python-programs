@@ -1,0 +1,11 @@
+n=int(input(" "))
+rem=0
+temp=n
+while n>10:
+    rem=n%10
+    rev=rev*10+rem
+    n=n//10
+    if(temp==rev):
+        print(temp,"is palindrom")
+    else:
+        print(temp,"is not palindrom") 
